@@ -15,7 +15,14 @@
     width: 600px;
 }
 
+.hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
 button {
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
